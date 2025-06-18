@@ -1,16 +1,34 @@
-# tictactoe
+# XO – Notebook Style Tic Tac Toe Game
 
-A new Flutter project.
+XO is a beautifully designed Flutter-based Tic Tac Toe game featuring a hand-drawn notebook theme, smooth animations, and two game modes: Single Player (vs Bot) and Two Player (local multiplayer).
 
-## Getting Started
+## 🎮 Features
 
-This project is a starting point for a Flutter application.
+- ✍️ **Notebook-inspired design** – Handwritten ink-style UI on a grid-paper background
+- 🤖 **Single Player mode** – Challenge an AI opponent
+- 👥 **Two Player mode** – Play with a friend locally
+- ✨ **Winning line animation** – Colored ink lines animate when someone wins
+- 📊 **Scoreboard** – Tracks wins for 'X' and 'O'
+- 🔁 **Restart button** – Restart the board and score
+- 🌈 **Ink effects** – Blue ink for X, Red ink for O
+- 🎉 **Custom game dialogs** – Stylish win/draw alert dialogs
+- ⚡ **Fast & responsive UI** – Designed for mobile play
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** (latest stable)
+- **Dart**
+- **Custom Paint / Animation** for line drawing
+- Handwritten-style custom font (`Notebook`)
+- Ink-themed colors and visual design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🚀 Getting Started
+
+To run the app locally:
+
+```bash
+git clone https://github.com/Goutham-13/XO.git
+cd XO
+flutter pub get
+flutter run
