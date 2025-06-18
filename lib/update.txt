@@ -1,0 +1,7 @@
+Ink splatter animation
+
+
+
+AI Bot logic for single-player mode
+the score card enhancement 
+win dialog animation etc enhancement
